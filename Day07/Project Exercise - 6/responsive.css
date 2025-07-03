@@ -1,0 +1,8 @@
+/* responsive for pc */
+
+@media screen and (min-width: 1024px) {
+    #main {
+    display: grid;
+        grid-template-columns:  repeat(auto-fit, minmax(400px, 1fr));
+    }
+}

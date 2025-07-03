@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lacquer&family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rowdies:wght@300;400;700&family=Syne:wght@400..800&family=Yuji+Mai&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Syne", sans-serif;
+  font-weight: 500;
+  padding: 1rem;
+  background-color: #FDFBF5;
+}
+
+main {
+  width: 100%;
+  padding: 1.5rem;
+  border: 1px solid black;
+}
+
+.view-1 {
+  width: 100%;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+.view-1 p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.view-1 h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  width: 70%;
+  line-height: 4rem;
+  margin-top: 1rem;
+}
+.view-1 img {
+  width: 100%;
+  margin-top: 3rem;
+  border-radius: 1rem;
+}
+
+.view-2 {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding-bottom: 2rem;
+}
+.view-2 .top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.view-2 .top p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.view-2 .top h1 {
+  width: 90%;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 3rem;
+}
+.view-2 .top button {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #000000;
+  color: #FDFBF5;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.view-2 .line {
+  height: 1px;
+  background-color: #000000;
+}
+.view-2 .bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.view-2 .bottom .elem {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.view-2 .bottom .elem svg {
+  width: 4rem;
+  aspect-ratio: 1/1;
+}
+.view-2 .bottom .elem h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.view-2 .bottom .elem p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.view-3 {
+  width: 100%;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding-bottom: 2rem;
+}
+.view-3 .line {
+  height: 1px;
+  background-color: #000000;
+}
+.view-3 .top {
+  width: 100%;
+}
+.view-3 .top h1 {
+  width: 90%;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 3rem;
+  margin-bottom: 1rem;
+}
+.view-3 .top p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.view-3 .bottom {
+  width: 100%;
+}
+.view-3 .bottom .elem {
+  width: 100%;
+}
+.view-3 .bottom .elem video {
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.view-3 .bottom .elem p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.view-4 {
+  width: 100%;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding-bottom: 2rem;
+}
+.view-4 svg {
+  width: 4rem;
+  aspect-ratio: 1/1;
+}
+.view-4 .top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.view-4 .top p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.view-4 .top h1 {
+  width: 100%;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 3rem;
+  text-transform: uppercase;
+}
+.view-4 .bottom {
+  width: 100%;
+}
+.view-4 .bottom p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.view-4 .bottom button {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #000000;
+  color: #FDFBF5;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+@media (min-width: 1020px) {
+  main {
+    padding: 3rem;
+  }
+  .view-1 h1 {
+    font-size: 6rem;
+    line-height: 6rem;
+  }
+  .view-2 {
+    flex-direction: row;
+    padding-bottom: 3rem;
+  }
+  .view-2 .top {
+    width: 65%;
+    justify-content: space-between;
+  }
+  .view-2 .top .text {
+    width: 100%;
+  }
+  .view-2 .top h1 {
+    margin-top: 1rem;
+    width: 100%;
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+  .view-2 .line {
+    width: 1px;
+    height: initial;
+  }
+  .view-2 .bottom {
+    width: 35%;
+  }
+  .view-2 .bottom .line {
+    width: 100%;
+    height: 1px;
+    align-self: stretch;
+  }
+  .view-3 {
+    flex-direction: row;
+  }
+  .view-3 .line {
+    width: 1px;
+    height: initial;
+  }
+  .view-3 .top {
+    width: 35%;
+  }
+  .view-3 .top .sticky-elem {
+    position: sticky;
+    top: 2rem;
+  }
+  .view-3 .bottom {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .view-3 .bottom .inner-top {
+    width: 50%;
+    margin: 1rem;
+  }
+  .view-3 .bottom .inner-bottom {
+    width: 50%;
+    margin: 1rem;
+  }
+  .view-4 {
+    flex-direction: row;
+  }
+  .view-4 svg {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
