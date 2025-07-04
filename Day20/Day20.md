@@ -32,7 +32,8 @@
 01: https://youtu.be/a-wVHL0lpb0?si=WEa1ZAUhAlWzmxM-      
 02: https://youtu.be/kkOuRJ69BRY?si=wNurB-3gtlLdEAz2      
 03: https://youtu.be/htznIeWKgg8?si=1Gj6S3plYgmNXHNf  
-04: https://youtu.be/EgDmCbhmstU?si=lTqL1OSD80TWKH8l
+04: https://youtu.be/EgDmCbhmstU?si=lTqL1OSD80TWKH8l     
+05: https://youtu.be/ks4MFTHLfyg?si=f2HVsPdksedGo4Eq 
 
 ## 🧮 Arrays
 

@@ -19,7 +19,12 @@
 9. [Sum array elements using `.reduce()`](#9-sum-array-elements-using-reduce)
 10. [Difference between `undefined`, `null`, and `NaN`](#10-difference-between-undefined-null-and-nan)
 
----
+# 🧑‍💻 Resource Video link : 
+01: https://youtu.be/a-wVHL0lpb0?si=WEa1ZAUhAlWzmxM-      
+02: https://youtu.be/kkOuRJ69BRY?si=wNurB-3gtlLdEAz2      
+03: https://youtu.be/htznIeWKgg8?si=1Gj6S3plYgmNXHNf  
+04: https://youtu.be/EgDmCbhmstU?si=lTqL1OSD80TWKH8l     
+05: https://youtu.be/ks4MFTHLfyg?si=f2HVsPdksedGo4Eq
 
 ## 1️⃣ Console & Basic Operations
 
