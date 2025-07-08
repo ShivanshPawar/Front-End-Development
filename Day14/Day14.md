@@ -1,7 +1,6 @@
 # 🦁 Sheryians Coding School Cohort – Day14 Learnings
 
 
-
 ## 📚 Table of Contents
 
 ### 🧠 Topic 1: Introduction to JavaScript

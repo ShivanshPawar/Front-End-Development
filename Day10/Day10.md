@@ -127,4 +127,4 @@ npx tailwindcss -i ./styles.css -o ./output.css --watch
 
 
 
-## Created with ❤️ by Shivansh 
+## Created with ❤️ by Shivansh

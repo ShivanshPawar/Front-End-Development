@@ -2,7 +2,6 @@
 
 
 
-
 ## 📚 Table of Contents – Arrays & Objects in JavaScript
 
 ### 🧮 Arrays

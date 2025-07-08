@@ -2,7 +2,6 @@
 # 🦁 Sheryians Coding School Cohort – Day18 Learnings
 
 
-
 ## 📚 Table of Contents (Advanced JavaScript Topics)
 
 1. [Rest Parameters](#1-rest-parameters)

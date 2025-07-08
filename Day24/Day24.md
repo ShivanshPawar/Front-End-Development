@@ -158,4 +158,7 @@ sayHi(); // No output
 
 ---
 
+#### 🧑‍💻 Code : [Class-Code](/Day24/script.js)
+
+
 ## Created with ❤️ by Shivansh

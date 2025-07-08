@@ -252,4 +252,4 @@ HTML supports various `input` types for user data:
 ```
 <br>
 
-## Created with ❤️ by Shivansh 
+## Created with ❤️ by Shivansh

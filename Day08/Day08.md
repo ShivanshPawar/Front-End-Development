@@ -224,4 +224,4 @@ images.forEach(img => observer.observe(img));
 ```
 
 ---
-## Created with ❤️ by Shivansh 
+## Created with ❤️ by Shivansh

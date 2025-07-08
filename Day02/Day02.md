@@ -227,4 +227,4 @@ touch index.html style.css script.js
 
 <br>
 
-## Created with ❤️ by Shivansh 
+## Created with ❤️ by Shivansh

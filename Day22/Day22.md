@@ -1,5 +1,6 @@
 # 🦁 Sheryians Coding School Cohort – Day22 Learnings
 
+
 ## 📚 Table of Contents
 
 ### 🔁 Loops (5 Questions)

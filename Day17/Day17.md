@@ -1,7 +1,6 @@
 # 🦁 Sheryians Coding School Cohort – Day17 Learnings
 
 
-
 ## 📚 Table of Contents: JavaScript Functions
 
 1. [✅ What is a Function?](#1-what-is-a-function)
