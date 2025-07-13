@@ -1,7 +1,7 @@
 let btn = document.querySelector('#btn');
 let flw = document.querySelector('#followers')
 let isFollow = false;
-document.addEventListener('click', function () {
+btn.addEventListener('click', function () {
     if (isFollow == false) {
         flw.textContent = '1';
         btn.textContent = 'following'
