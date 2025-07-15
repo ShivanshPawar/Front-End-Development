@@ -24,6 +24,9 @@ body {
   align-items: center;
 }
 #main nav {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   width: 90%;
   height: 10%;
   background-color: rgba(0, 0, 0, 0.38);
@@ -53,6 +56,10 @@ body {
   gap: 1rem;
 }
 #main #section-1 #lft h1 {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  user-select: none;
   font-size: 10rem;
   line-height: 10rem;
 }
@@ -62,6 +69,9 @@ body {
   margin-left: 1.5rem;
 }
 #main #section-1 #lft button {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   width: 15rem;
   height: 3.5rem;
   margin-left: 1rem;
@@ -88,5 +98,8 @@ body {
   background-repeat: no-repeat;
 }
 #main #section-1 #rgt p {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   color: #e8e8e8;
 }/*# sourceMappingURL=style.css.map */
