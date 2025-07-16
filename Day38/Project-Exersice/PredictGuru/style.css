@@ -59,6 +59,7 @@ body {
   background: radial-gradient(circle, #2B2A29 0%, #431A1D 60%);
   border: 2px solid rgba(128, 128, 128, 0.394);
   border-radius: 25px;
+  overflow: hidden;
 }
 #main #cards .card img {
   width: 100%;

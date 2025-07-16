@@ -250,7 +250,15 @@ Instead of moving JS to the bottom, you can also use the `defer` attribute in th
 
 ---
 
-
 #### 🧑‍💻 Code : [Class-Code](/Day37/Code)
+
+---
+
+## Project-Exercise
+
+#### 🧑‍💻 Code : [AddFriend](/Day37/Project-Exercise/AddFriend)
+#### 🧑‍💻 Code : [BulbON](/Day37/Project-Exercise/BulbON)
+
+---
 
 ## Created with ❤️ by Shivansh
