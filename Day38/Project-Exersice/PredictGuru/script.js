@@ -1,18 +1,3 @@
-// let CSK = document.querySelector('#card1');
-// let DC = document.querySelector('#card2');
-// let GT = document.querySelector('#card3');
-// let KKR = document.querySelector('#card4');
-// let LSG = document.querySelector('#card5');
-// let MI = document.querySelector('#card6');
-// let PBKS = document.querySelector('#card7');
-// let RCB = document.querySelector('#card8');
-// let RR = document.querySelector('#card9');
-// let SRH = document.querySelector('#card10');
-
-
-
-// console.log(winner)
-
 let arr = [
     {
         title: 'IPL 2K25 Winner',
