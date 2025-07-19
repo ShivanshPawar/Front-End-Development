@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+button {
+    padding: 1rem 2rem;
+    background-color: rgba(255, 0, 0, 0.668);
+    color: white;
+    border-radius: 1rem;
+    border: 1px solid black dashed;
+    font-size: large;
+    z-index: 1;
+}

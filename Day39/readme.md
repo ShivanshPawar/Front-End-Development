@@ -31,6 +31,8 @@ This project simulates a social media **"Add Friend / Remove Friend"** feature w
 - Event Handling – `addEventListener()`  
 - State Toggle – `flag` variable to switch state  
 
+---
+
 #### 🧑‍💻 Code : [AddFriend](/Day39/Project-Exercise/AddFriend)
 
 <br>
