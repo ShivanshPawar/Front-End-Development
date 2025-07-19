@@ -29,3 +29,7 @@ button {
     font-size: large;
     z-index: 1;
 }
+
+button:hover{
+    cursor: pointer;
+}
