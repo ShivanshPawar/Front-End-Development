@@ -88,12 +88,69 @@ img2.setAttribute('src', img1src);
 
 ---
 
-#### 🧑‍💻 Code : [Class-Code](/Day44/Code)
+#### 🧑‍💻 Code : [Class-Code](/Day44/Code/ImageSwap)
+
+---
 
 
 
+# 🎉 Sticker Bomb Generator
+
+This project randomly places **cute sticker images** on the screen with **random rotation and position** every time the **button** is clicked. It also changes the button's background color dynamically with random RGB values.
+
+---
+
+## 📦 DOM Selections
+
+```js
+let btn = document.querySelector('button'); // Button to trigger sticker drop
+let main = document.querySelector('#main'); // Main container to append stickers
+````
+
+---
+
+## 🎴 Image Array
+
+```js
+let arr = [
+  "assets/Sticker-1.png",
+  "assets/Sticker-2.png",
+  "assets/Sticker-3.png",
+  "assets/Sticker-4.png",
+  "assets/Sticker-5.png",
+  "assets/Sticker-6.png",
+  "assets/Sticker-7.png",
+  "assets/Sticker-8.png"
+];
+```
+
+An array of image paths for 8 different stickers.
+
+---
 
 
+
+## 📌 Visual Behavior – Step-by-Step
+
+| Step  | Description                                         |
+| ----- | --------------------------------------------------- |
+| 🔢 1  | Random number `0–7` is selected to choose an image  |
+| 📐 2  | Random `(x, y)` position in `%` for image placement |
+| 🔄 3  | Random rotation (`0–360deg`) applied                |
+| 🖼️ 4 | `<img>` element created with random attributes      |
+| 🎯 5  | Image appended to the `#main` container             |
+| 🎨 6  | Button color changes to a **random RGB** color      |
+
+---
+
+## 📍 Result
+
+* Stickers drop **randomly** at different angles and positions on the screen
+* Button color changes **every time** it is clicked
+
+---
+
+#### 🧑‍💻 Code : [Class-Code](/Day44/Code/RandomElem)
 
 
 ## Created with ❤️ by Shivansh
