@@ -31,9 +31,66 @@ This project simulates a social media **"Add Friend / Remove Friend"** feature w
 - Event Handling – `addEventListener()`  
 - State Toggle – `flag` variable to switch state  
 
+#### 🧑‍💻 Code : [AddFriend](/Day39/Project-Exercise/AddFriend)
+
+<br>
+
 ---
 
-#### 🧑‍💻 Code : [AddFriend](/Day39/Project-Exercise/AddFriend)
+<br>
+
+# 📥 Download Progress Bar – JS Logic Breakdown
+
+This project simulates a file download animation using a progress bar that fills from 0% to 100% over 5 seconds when the **"Download file"** button is clicked.
+
+---
+
+## 🧠 DOM Elements Selected
+
+```js
+let btn = document.querySelector('button');      // Selects the download button
+let prog = document.querySelector('#grow');      // Green inner progress bar
+let percent = document.querySelector('#percent'); // Percentage text (e.g. 50%)
+````
+
+
+---
+
+## 🧩 Breakdown – Step by Step
+
+| Step 🔢 | Description                                                               |
+| ------- | ------------------------------------------------------------------------- |
+| 1️⃣     | `grow` initialized to 0                                                   |
+| 2️⃣     | On button click → `setInterval` starts, increments width by 1% every 50ms |
+| 3️⃣     | Progress bar and `%` text update in real-time                             |
+| 4️⃣     | `setTimeout` runs after 5 seconds:                                        |
+|         | — Stops interval (`clearInterval`)                                        |
+|         | — Updates button text to `"Downloaded"`                                   |
+|         | — Makes button semi-transparent and disables it                           |
+
+---
+
+## ⏱️ Timing Logic
+
+* 100% download takes 5 seconds (100 × 50ms)
+* `setInterval` → runs every 50 milliseconds
+* `setTimeout` → stops interval after 5000 milliseconds (5s)
+
+---
+
+## 🎯 Outcome (Final Result):
+
+```html
+Progress Bar → Full Width
+Text → 100%
+Button → Disabled + Says "Downloaded"
+```
+
+---
+
+
+
+#### 🧑‍💻 Code : [SongDownloader](/Day39/Project-Exercise/SongDownloader)
 
 ---
 ---
