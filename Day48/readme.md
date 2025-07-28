@@ -2,14 +2,14 @@
 
 
 
-# 🌐 DOM & Browser Functionalities in JavaScript
+# 🌐 DOM & Browser Functionalities in JavaScript 
 
 
-## 📊 JavaScript Execution Context & Call Stack
+## 📊 JavaScript Execution Context & Call Stack 
 
-JavaScript is a **single-threaded**, **synchronous language**, which means it runs one command at a time in a specific order.
+JavaScript is a **single-threaded**, **synchronous      language**, which means it runs one command at a time in a specific order.
 
-### 🔹 What is the Call Stack?
+### 🔹 What is the Call Stack? 
 
 * A **stack** that keeps track of function calls.
 * Uses **LIFO** (Last In First Out) model.
@@ -19,7 +19,7 @@ JavaScript is a **single-threaded**, **synchronous language**, which means it ru
 ```js
 function greet() {
   console.log("Hello!");
-}
+} 
 function main() {
   greet();
   console.log("End of program");
@@ -32,23 +32,23 @@ main();
 // └── console.log("End of program")
 ```
 
----
+--- 
 
 ### 🔸 Global Execution Context (GEC)
 
 * Created when the script first runs.
-* Binds:
-
+* Binds: 
+ 
   * Global object (`window` in browsers)
   * `this`
   * Allocates memory for variables/functions (hoisting).
-
+ 
 ### 🔸 Function Execution Context (FEC)
-
+ 
 * Created when a function is invoked.
 * Has its own memory space.
 * Variables in FEC don’t leak to GEC unless returned.
-
+ 
 ---
 
 ## 🌐 Web APIs (Browser Provided)
