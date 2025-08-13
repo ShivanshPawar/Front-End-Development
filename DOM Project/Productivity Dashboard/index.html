@@ -1,56 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div id="main">
-        <nav>
+        <!-- <nav>
 
-        </nav>
+        </nav> -->
         <section class="allElems">
             <div class="todo elem" id="0">
-                <img src="https://images.unsplash.com/photo-1693252258249-5ef8b8b1a0ed?q=80&w=1180&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <img src="https://images.unsplash.com/photo-1693252258249-5ef8b8b1a0ed?q=80&w=1180&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="">
                 <h2>To-Do List</h2>
             </div>
             <div class="daily elem" id="1">
-                <img src="https://images.unsplash.com/photo-1634848860108-6d8368f5a0b3?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <img src="https://images.unsplash.com/photo-1634848860108-6d8368f5a0b3?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="">
                 <h2>Daily Planner</h2>
             </div>
             <div class="moti elem" id="2">
-                <img src="https://plus.unsplash.com/premium_photo-1673326630848-fecf43ae8db1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHx8" alt="">
+                <img src="https://plus.unsplash.com/premium_photo-1673326630848-fecf43ae8db1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHx8"
+                    alt="">
                 <h2>Motivation</h2>
             </div>
             <div class="pomo elem" id="3">
-                <img src="https://images.unsplash.com/photo-1708965914354-a68caee520fb?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <img src="https://images.unsplash.com/photo-1708965914354-a68caee520fb?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="">
                 <h2>Pomodoro Timer</h2>
             </div>
             <div class="goals elem" id="4">
-                <img src="https://images.unsplash.com/photo-1609569669224-8d403a2809aa?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4Nnx8fGVufDB8fHx8fA%3D%3D" alt="">
-                <h2>Daily Goals</h2>  
+                <img src="https://images.unsplash.com/photo-1609569669224-8d403a2809aa?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4Nnx8fGVufDB8fHx8fA%3D%3D"
+                    alt="">
+                <h2>Daily Goals</h2>
             </div>
         </section>
 
-        <section class="fullElem">
-            <h1>To-Do List</h1>
+        <section class="fullElem todo-list-fullpage">
+            <button class="back" id="0">Close</button>
+            <h2>Your personlized Task List</h2>
+            <div class="todo-container">
+                <div class="addTask">
+                    <form>
+                        <input type="text" placeholder="Enter Task">
+                        <textarea placeholder="Enter Details" name="" id="" cols="30" rows="10"></textarea>
+                        <button>Add Task</button>
+                    </form>
+                </div>
+                <div class="allTask">
+                    <div class="task">
+                        <h5>gym jao</h5>
+                        <button>Mark as Completed</button>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section class="fullElem">
+        <section class="fullElem daily-planner-fullpage">
+            <button class="back" id="1">Close</button>
             <h1>Daily Planner</h1>
         </section>
-        <section class="fullElem">
+        <section class="fullElem motivation-fullpage">
+            <button class="back" id="2">Close</button>
             <h1>Motivation</h1>
         </section>
-        <section class="fullElem">
+        <section class="fullElem Pomodoro-fullpage">
+            <button class="back" id="3">Close</button>
             <h1>Pomodoro Timer</h1>
         </section>
-        <section class="fullElem">
+        <section class="fullElem daily-goals-fullpage">
+            <button class="back" id="4">Close</button>
             <h1>Daily Goals</h1>
         </section>
     </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
