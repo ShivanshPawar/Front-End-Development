@@ -1,7 +1,8 @@
 :root {
-  --pri:#fff;
-  --sec:#111;
-  --tri:lightseagreen;
+  --pri:#F8F4E1;
+  --sec:#3b1d09;
+  --tri1:#FEBA17;
+  --tri2:#74512D;
 }
 
 @font-face {
@@ -36,6 +37,7 @@ body {
 #main {
   height: 100%;
   width: 100%;
+  background-color: var(--sec);
 }
 
 section.allElems {
@@ -46,8 +48,43 @@ section.allElems {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
+  gap: 20px;
 }
 
 .elem {
-  background-color: brown;
+  background-color: var(--tri1);
+  height: 350px;
+  width: 250px;
+  font-size: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: all ease 0.2s;
+}
+
+.elem img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.elem h2 {
+  position: absolute;
+  bottom: 3%;
+  right: 5%;
+  font-weight: 500;
+}
+
+.elem:active {
+  scale: 0.97;
+}
+
+.fullElem {
+  height: 100%;
+  width: 100%;
+  background-color: var(--sec);
+  padding: 40px;
+  font-size: 60px;
+  display: none;
 }/*# sourceMappingURL=style.css.map */
