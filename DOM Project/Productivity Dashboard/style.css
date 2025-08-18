@@ -250,4 +250,12 @@ section.allElems {
 }
 .mark-imp label {
   font-size: 20px;
+}
+
+.daily-planner-fullpage {
+  display: block;
+}
+
+.daily-planner-fullpage h2 {
+  font-size: 3rem;
 }/*# sourceMappingURL=style.css.map */

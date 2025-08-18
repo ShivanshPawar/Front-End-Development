@@ -1,7 +1,8 @@
+# 🦁 Sheryians Coding School Cohort – Day69 Learnings
+
+
 
 # 🧠 React Fundamentals Explained (Beginner-Friendly)
-
-This README explains React concepts deeply but in an easy-to-understand way. Perfect for freshers, self-learners, and BTech students preparing for interviews or building projects.
 
 ---
 
@@ -176,4 +177,7 @@ npm install react
 | npm         | Package installer                         | College lab assistant                        |
 | SPA vs MPA  | One page vs multiple page app structure   | Zomato app vs IRCTC website                  |
 
-> 📘 Feel free to use this README to guide beginners or include in your own React learning repository.
+---
+
+
+## Created with ❤️ by Shivansh

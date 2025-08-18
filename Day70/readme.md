@@ -1,3 +1,7 @@
+# 🦁 Sheryians Coding School Cohort – Day70 Learnings
+
+## 🧑‍💻 Code : [Class-Code](../Day70/code/src/App.jsx)
+
 
 # React Notes (Interview-Focused)
 
@@ -284,3 +288,6 @@ function Button({ label, onClick }) {
   return <button onClick={onClick}>{label}</button>;
 }
 ```
+
+---
+## Created with ❤️ by Shivansh
