@@ -1,4 +1,6 @@
 import { useState } from "react";
+import Create from "../components/Create";
+import Read from "../components/Read";
 
 // Day 71
 
@@ -100,20 +102,45 @@ import { useState } from "react";
 
 
 
+// const App = () => {
+
+//   const [username, setUsername] = useState("shivansh");
+
+//   const ChangeHandler = () => {
+//       setUsername("Shivi");
+//     };
+//     console.log(username);
+
+//   return (
+//     <div>
+//       <h1>Username</h1>
+//       <h2>{username}</h2>
+//       <button onClick={ChangeHandler}>Change</button>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+
+
+
+// Day 75
+
+
 const App = () => {
+  const [users, setuser] = useState([
+    { name: "john", age: 45 },
+    { name: "shery", age: 15 },
+    { name: "emy", age: 25 },
 
-  const [username, setUsername] = useState("shivansh");
-
-  const ChangeHandler = () => {
-      setUsername("Shivi");
-    };
-    console.log(username);
+  ])
 
   return (
     <div>
-      <h1>Username</h1>
-      <h2>{username}</h2>
-      <button onClick={ChangeHandler}>Change</button>
+      <Create />
+      <Read users={users} setuser={setuser} />
     </div>
   )
 }
