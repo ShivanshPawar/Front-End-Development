@@ -1,20 +1,20 @@
-const Read = (props) => {
+// const Read = (props) => {
 
-  const users = props.users;
-  // const setuser = props.setuser;
+//   const users = props.users;
+//   // const setuser = props.setuser;
 
-  console.log(props);
+//   console.log(props);
   
-  const renderuser = users.map((user, index) => {
-    return <li key={index}>{user.name}</li>;
-  })
+//   const renderuser = users.map((user, index) => {
+//     return <li key={index}>{user.name}</li>;
+//   })
 
-  return (
-    <div>
-      <h1>User Data</h1>
-      <ol>{renderuser}</ol>
-    </div>
-  )
-}
+//   return (
+//     <div>
+//       <h1>User Data</h1>
+//       <ol>{renderuser}</ol>
+//     </div>
+//   )
+// }
 
-export default Read
+// export default Read

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Create from "../components/Create";
-import Read from "../components/Read";
+// import Create from "../components/Create";
+// import Read from "../components/Read";
 
 // Day 71
 
@@ -129,18 +129,78 @@ import Read from "../components/Read";
 // Day 75
 
 
-const App = () => {
-  const [users, setuser] = useState([
-    { name: "john", age: 45 },
-    { name: "shery", age: 15 },
-    { name: "emy", age: 25 },
+// const App = () => {
+//   const [users, setuser] = useState([
+//     { name: "john", age: 45 },
+//     { name: "shery", age: 15 },
+//     { name: "emy", age: 25 },
 
-  ])
+//   ])
+
+//   return (
+//     <div>
+//       <Create />
+//       <Read users={users} setuser={setuser} />
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+
+// Day 76
+
+import React from 'react'
+
+const App = () => {
+  const [todos, settodos] = useState([
+    { id: 1, title: "Finish your work", isCompleted: false }
+  ]);
+
+  const [title, settitle] = useState("");
+  const [completed, setcompleted] = useState(false)
+  const [gender, setgender] = useState("Female")
+  const [city, setcity] = useState("mumbai")
+
+
 
   return (
     <div>
-      <Create />
-      <Read users={users} setuser={setuser} />
+      <h1>Create Tasks</h1>
+      <form>
+        <input
+          value={title}
+          onChange={(e) => settitle(e.target.value)} // gives you input value
+          type="text" placeholder="title" />
+        <br /><br />
+        <input
+          checked={completed}
+          onChange={(e) => setcompleted(e.target.checked)} // gives you the truthy & falsy boolean value
+          type="checkbox" /> Completed
+        <br /><br />
+        <input
+          value={"Male"}
+          onChange={(e) => setgender(e.target.value)}
+          checked={gender == "Male" && true}
+          type="radio" /> Male
+        <br /><br />
+        <input
+          value={"Female"}
+          onChange={(e) => setgender(e.target.value)}
+          checked={gender == "Female" && true}
+          type="radio" /> Female
+        <br /><br />
+        <select
+          value={city}
+          onChange={(e) => setcity(e.target.value)}>
+          <option value="dheli">Dheli</option>
+          <option value="pune">Pune</option>
+          <option value="mumbai">Mumbai</option>
+        </select>
+        <br /><br />
+        <button>Create todo</button>
+      </form>
     </div>
   )
 }
