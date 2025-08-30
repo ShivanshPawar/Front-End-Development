@@ -266,7 +266,7 @@ section.allElems {
             font-weight: 600;
             transition: all ease 0.2s;
 
-            &:active{
+            &:active {
                 scale: 0.97;
             }
         }
@@ -302,10 +302,58 @@ section.allElems {
 
 
 
-.daily-planner-fullpage{
-    display: block;
+.daily-planner-fullpage h2 {
+    font-size: 4rem;
 }
 
-.daily-planner-fullpage h2{
-    font-size: 3rem;
+.daily-planner-fullpage .day-planner {
+    background-color: var(--tri2);
+    height: 85%;
+    margin-top: 40px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    overflow: auto;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+
+    .day-planner-time {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        position: relative;
+        width: 49%;
+        margin-bottom: 17px;
+
+        p {
+            position: absolute;
+            top: 12%;
+            left: 2%;
+            color: var(--tri1);
+            font-size: 16px;
+        }
+
+        input {
+            padding: 20px 45px;
+            width: 100%;
+            background-color: var(--sec);
+            border-radius: 5px;
+            border: none;
+            font-size: 35px;
+            padding-top: 34px;
+            outline: none;
+        }
+    }
 }
