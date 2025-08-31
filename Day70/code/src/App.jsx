@@ -212,6 +212,13 @@ import Read from "../components/Read";
 
 
 
+// Day77
+
+
+
+
+
+
 import React from 'react'
 
 const App = () => {
@@ -220,11 +227,11 @@ const App = () => {
   ]);
 
   return (
-    <>
+    <div className="text-white w-screen h-screen bg-gray-900 flex justify-between p-10">
       <Create todos={todos} settodos={settodos}/>
       <hr />
       <Read todos={todos} settodos={settodos}/>
-    </>
+    </div>
   )
 }
 

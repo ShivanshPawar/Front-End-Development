@@ -1,4 +1,4 @@
-# 🦁 Sheryians Coding School Cohort – Day75 Learnings
+# 🦁 Sheryians Coding School Cohort – Day76 Learnings
 
 ## 🧑‍💻 Code : [Class-Code](../Day70/code/src/App.jsx)
 
@@ -216,6 +216,7 @@ This is **the foundation of every form in React**. Whether it’s login, signup,
 8. State changes → React re-renders → UI updates automatically.
 
 ---
+
 
 
 ## Created with ❤️ by Shivansh

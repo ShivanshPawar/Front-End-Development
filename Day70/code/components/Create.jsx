@@ -44,7 +44,7 @@ import { nanoid } from "nanoid";
 
 
 
-//  Day76
+//  Day 76 & 77
 
 import React from 'react'
 
@@ -73,18 +73,19 @@ const Create = (props) => {
     };
 
     return (
-        <>
-            <h1>Create Tasks</h1>
+        <div className="w-[45%] h-[100%] border p-10 mx-auto">
+            <h1 className="text-5xl font-thin mb-10">Set <span className="text-red-400">Reminders</span> for tasks</h1>
             <form onSubmit={SubmitHandler}>
                 <input
+                    className="text-4xl font-extralight mb-6 "
                     onChange={(e) => settitle(e.target.value)} // gives you input value
                     value={title}
                     type="text"
                     placeholder="title" />
                 <br /><br />
-                <button>Create todo</button>
+                <button className="text-xl px-5 py-2 border border-amber-50 rounded hover:cursor-pointer active:scale-95">Create todo</button>
             </form>
-        </>
+        </div>
     )
 }
 
