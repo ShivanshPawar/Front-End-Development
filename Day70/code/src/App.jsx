@@ -219,6 +219,30 @@ import Read from "../components/Read";
 
 
 
+// import React from 'react'
+
+// const App = () => {
+//   const [todos, settodos] = useState([
+//     { id: 1, title: "Finish your work", isCompleted: false }
+//   ]);
+
+//   return (
+//     <div className="text-white w-screen h-screen bg-gray-900 flex justify-between p-10">
+//       <Create todos={todos} settodos={settodos}/>
+//       <hr />
+//       <Read todos={todos} settodos={settodos}/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+
+
+
+// Day 78
+
 import React from 'react'
 
 const App = () => {
@@ -236,3 +260,4 @@ const App = () => {
 }
 
 export default App
+
