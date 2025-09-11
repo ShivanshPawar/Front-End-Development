@@ -158,13 +158,14 @@ import { nanoid } from "nanoid";
 
 // Day 81
 
-import React from 'react'
+import React, { useContext } from 'react'
 import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
-const Create = (props) => {
+import { todocontext } from "./Wrapper";
+const Create = () => {
 
-    const todos = props.todos;
-    const settodos = props.settodos;
+      const [todos, settodos] = useContext(todocontext)
+    
 
     const {
         register,

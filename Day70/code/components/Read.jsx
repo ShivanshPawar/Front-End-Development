@@ -113,13 +113,11 @@ import { todocontext } from "./Wrapper";
 
 // Day 81
 
-const Read = (props) => {
+const Read = () => {
 
-  const s = useContext(todocontext)
-  console.log(s)
+  const [todos, settodos] = useContext(todocontext)
 
-  const todos = props.todos;
-  const settodos = props.settodos;
+ 
 
   const DeleteHandler = (id) => {
     const filtedtodo = todos.filter((todo) => todo.id != id);

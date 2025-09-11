@@ -272,6 +272,23 @@ import Read from "../components/Read";
 
 
 
+// Day 81
+
+// import React from 'react'
+
+// const App = () => {
+ 
+
+//   return (
+//     <div className="text-white w-screen h-screen bg-gray-900 flex justify-between p-10">
+//       <Create />
+//       <hr />
+//       <Read />
+//     </div>
+//   )
+// }
+
+// export default App
 
 
 
@@ -295,13 +312,31 @@ import Read from "../components/Read";
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+// Day 82
 
 
 import React from 'react'
+import Mainroutes from "./routes/Mainroutes";
+import Nav from './components/Nav';
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className="h-screen w-screen bg-gray-400 text-white px-[10%]">
+      <Nav/>
+      <Mainroutes/>
+    </div>
   )
 }
 
