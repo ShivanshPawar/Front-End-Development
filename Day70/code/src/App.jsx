@@ -333,7 +333,7 @@ import Nav from './components/Nav';
 
 const App = () => {
   return (
-    <div className="h-screen w-screen bg-gray-400 text-white px-[10%]">
+    <div className="h-screen w-screen bg-gray-900 text-white px-[10%]">
       <Nav/>
       <Mainroutes/>
     </div>
