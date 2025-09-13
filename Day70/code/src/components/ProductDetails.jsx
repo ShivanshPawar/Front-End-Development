@@ -1,6 +1,7 @@
 import React from 'react'
 import { useNavigate, useParams } from 'react-router'
 
+// Day 82
 
 const ProductDetails = () => {
 

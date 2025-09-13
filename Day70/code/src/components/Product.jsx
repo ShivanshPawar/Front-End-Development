@@ -1,6 +1,8 @@
 import React from 'react'
 import { useNavigate, } from 'react-router'
 
+// Day 82
+
 const Product = () => {
 
   const navigte = useNavigate();

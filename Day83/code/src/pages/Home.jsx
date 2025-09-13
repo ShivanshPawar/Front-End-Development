@@ -1,7 +1,5 @@
 import React from 'react'
 
-// Day 82
-
 const Home = () => {
   return (
     <div>Home</div>
