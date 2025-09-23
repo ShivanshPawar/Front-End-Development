@@ -38,7 +38,14 @@ const SingleRecipe = () => {
   }
 
 
-
+    useEffect(()=>{
+      console.log("SingleRecipe.jsx Mounted");
+      // getproduct();
+  
+      return()=>{
+        console.log("SingleRecipe.jsx Unmounted")
+      }
+    },[]);
 
 
 
