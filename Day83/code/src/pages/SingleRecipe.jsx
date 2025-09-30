@@ -11,49 +11,67 @@ const SingleRecipe = () => {
   const navigate = useNavigate()
   const { register, handleSubmit, reset } = useForm({
     defaultValues: {
-      title: recipe.title,
-      chef: recipe.chef,
-      image: recipe.image,
-      desc: recipe.desc,
-      ingr: recipe.ingr,
-      inst: recipe.inst,
+      title: recipe?.title,
+      chef: recipe?.chef,
+      image: recipe?.image,
+      desc: recipe?.desc,
+      ingr: recipe?.ingr,
+      inst: recipe?.inst,
 
     }
   });
 
 
-  const SubmitHandler = (recipe) => {
+  const UpdateHandler = (recipe) => {
     const index = data.findIndex((recipe) => params.id == recipe.id);
     const copydata = [...data];
     copydata[index] = { ...copydata[index], ...recipe };
     setdata(copydata);
+    localStorage.setItem("recipes", JSON.stringify(copydata))
     toast.success("recipe has been updated")
   }
 
   const DeleteHandler = (recipe) => {
     const filterdata = data.filter((r) => r.id != params.id);
     setdata(filterdata);
+    localStorage.setItem("recipes", JSON.stringify(filterdata))
     toast.success("recipe deleted!");
     navigate("/recipes");
   }
 
 
-    useEffect(()=>{
-      console.log("SingleRecipe.jsx Mounted");
-      // getproduct();
-  
-      return()=>{
-        console.log("SingleRecipe.jsx Unmounted")
-      }
-    },[]);
+  useEffect(() => {
+    console.log("SingleRecipe.jsx Mounted");
+    // getproduct();
 
+    return () => {
+      console.log("SingleRecipe.jsx Unmounted")
+    }
+  }, []);
 
+  const favroite = JSON.parse(localStorage.getItem("fav")) || [];
+
+  const FavHandler = () => {
+    favroite.push(recipe)
+    localStorage.setItem("fav", JSON.stringify(favroite));
+  }
+
+  const UnFavHandler = () => {
+    
+  }
 
 
   return recipe ? (
     <div className='w-full flex' >
-      <div className='left w-1/2 p-2'>
-        <h1 className='px-20 py-20 text-2xl font-black'>{recipe.title}</h1>
+      <div className='relative left w-1/2 p-2'>
+        {favroite.find((f) => f.id == recipe?.id) ? (
+          <i onClick={FavHandler} className="right-[10%] absolute text-3xl text-red-400 ri-heart-fill"></i>
+        ) : (
+          <i onClick={UnFavHandler} className="right-[10%] absolute text-3xl text-red-400 ri-heart-line"></i>
+        )
+        }
+
+        <h1 className='px-20 py-20 text-5xl font-black'>{recipe.title}</h1>
         <img className='w-[15vw]' src={recipe.image} alt="" />
         <h1>{recipe.chef}</h1>
         <h1>{recipe.desc}</h1>
@@ -61,7 +79,7 @@ const SingleRecipe = () => {
         <h1>{recipe.inst}</h1>
       </div>
       <div className='right w-1/2 p-2'>
-        <form className='w-1/2 p-2' onSubmit={handleSubmit(SubmitHandler)}>
+        <form className='w-1/2 p-2' onSubmit={handleSubmit(UpdateHandler)}>
           <input
             className='block border-b outline-0 p-2'
             {...register("image")}
