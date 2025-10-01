@@ -17,7 +17,7 @@ const App = () => {
   },[]);
 
   return (
-    <div>App</div>
+    <div className='bg-black w-screen h-screen text-white'>App</div>
   )
 }
 
