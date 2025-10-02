@@ -37,7 +37,17 @@
             }
         }
     ],
-    "cart": [
-        
+    "carts": [
+        {
+            "id": 1,
+            "userId": 1,
+            "date": "2020-03-02T00:00:02.000Z",
+            "products": [
+                {
+                    "productId": 1,
+                    "quantity": 4
+                }
+            ]
+        }
     ]
 }
