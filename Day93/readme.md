@@ -1,4 +1,4 @@
-# 🦁 Sheryians Coding School Cohort – Day89 Learnings
+# 🦁 Sheryians Coding School Cohort – Day93 Learnings
 
 ## 🧑‍💻 Code : [Class-Code](../Day93/code)
 
